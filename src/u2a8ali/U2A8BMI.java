@@ -36,27 +36,27 @@ public class U2A8BMI extends JFrame implements ActionListener {
         
         // Intitialize all components
         JLabel lblTitle = new JLabel("Ideal Weight Calculator");      // Title
-        lblTitle.setFont(new Font("Comic Sans MS", Font.BOLD, 30));
+        lblTitle.setFont(new Font("Arial", Font.BOLD, 30));
         lblTitle.setForeground(Color.BLACK);
 
         JLabel lblName = new JLabel("Name:");  // Prompt
-        lblName.setFont(new Font("Comic Sans MS", Font.BOLD, 15));
+        lblName.setFont(new Font("Arial", Font.BOLD, 15));
 
         txtName.setText("");              // Input amount of purchases
         
         JLabel lblMeasurement = new JLabel("System of Measure:");  // Prompt
-        lblMeasurement.setFont(new Font("Comic Sans MS", Font.BOLD, 15));
+        lblMeasurement.setFont(new Font("Arial", Font.BOLD, 15));
         
         JLabel lblMeasurementChoice = new JLabel("(M)etric or (I)mperial");  // Prompt
-        lblMeasurementChoice.setFont(new Font("Comic Sans MS", Font.PLAIN, 15));
+        lblMeasurementChoice.setFont(new Font("Arial", Font.PLAIN, 15));
 
         txtMeasurement.setText("");              // Input amount of purchases
         
         JLabel lblHeight = new JLabel("Height:");  // Prompt
-        lblHeight.setFont(new Font("Comic Sans MS", Font.BOLD, 15));
+        lblHeight.setFont(new Font("Arial", Font.BOLD, 15));
         
         JLabel lblHeightChoice = new JLabel("metres or inches");  // Prompt
-        lblHeightChoice.setFont(new Font("Comic Sans MS", Font.PLAIN, 15));
+        lblHeightChoice.setFont(new Font("Arial", Font.PLAIN, 15));
 
         txtHeight.setText("");              // Input amount of purchases
 
@@ -65,7 +65,7 @@ public class U2A8BMI extends JFrame implements ActionListener {
         btnCalculate.setActionCommand("Calculate");
         btnCalculate.addActionListener(this);
 
-        lblWeight.setFont(new Font("Comic Sans MS", Font.BOLD, 15));     // Discount amount output
+        lblWeight.setFont(new Font("Arial", Font.BOLD, 15));     // Discount amount output
         lblWeight.setForeground(Color.RED);  // Set colour of font to red
         lblWeight.setText("");
 
